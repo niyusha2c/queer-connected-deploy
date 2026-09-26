@@ -4,6 +4,7 @@ Two static pages, ready to deploy as-is (no build step needed):
 
 - `index.html` — Home
 - `events.html` — Events
+- `about.html` — About
 
 The "Home" and "Events" nav items (and the logo) now link between the two pages, so the founder can click around like a real site. "About", "FAQs", "Contact" are left as plain text since those pages don't exist yet.
 
