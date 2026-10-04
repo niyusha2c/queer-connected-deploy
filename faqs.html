@@ -89,7 +89,7 @@ a{color:#D95F2B}a:hover{color:#8F3C18}
   </a>
   <nav class="hdr-nav">
     <a href="index.html">Home</a><a href="about.html">About</a><a href="events.html">Events</a><a class="on" href="faqs.html" aria-current="page">FAQs</a><span>Contact</span>
-    <span class="hdr-cta">Create your event account</span>
+    <span class="hdr-cta" data-acct-open>Create your event account</span>
   </nav>
 </header>
 
@@ -142,5 +142,6 @@ a{color:#D95F2B}a:hover{color:#8F3C18}
 <script>
 document.querySelectorAll('.faq').forEach(d=>d.addEventListener('toggle',()=>{if(d.open)document.querySelectorAll('.faq[open]').forEach(o=>{if(o!==d)o.open=false})}));
 </script>
+<script src="account.js"></script>
 </body>
 </html>
